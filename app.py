@@ -90,8 +90,9 @@ def add_user():
 #   "username": "Albert",
 #   "email": "test@gmail.com"
 # consum
+# host="0.0.0.0", port=8080
 if __name__ == "__main__":
-  app.run()
+  app.run(host="0.0.0.0", port=5000)
 
 # RESTFULL APIS
 # SOAP APIS
